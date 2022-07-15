@@ -1,3 +1,9 @@
+local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStuff2/notify-lib/main/lib'),true))()
+
+Lib.prompt('Graves.Lua', 'Lock - Loaded', 1)
+wait(0.1)
+
+
 getgenv().OldAimPart = "UpperTorso"
 getgenv().AimPart = "UpperTorso" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}  
     getgenv().AimlockKey = "q"
