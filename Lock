@@ -1,6 +1,6 @@
 local Lib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/BoredStuff2/notify-lib/main/lib'),true))()
 
-Lib.prompt('Graves.Lua', 'Lock - Loaded', 1)
+Lib.prompt('Graves.Cc', 'Lock - Loaded', 1)
 wait(0.1)
 
 
